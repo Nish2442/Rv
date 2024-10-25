@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background-color: skyblue;
+}
+
+h1 {
+    background-color: purple;
+    color: white; /* Ensures text is readable */
+    padding: 20px; /* Adds some spacing */
+}
+
+img {
+    float: left;
+    margin-right: 20px; /* Adds spacing between the image and text */
+}
+
+h2 input::placeholder { /* Remove space before ::placeholder */
+    font-weight: bold; /* Use 'font-weight' instead of 'font-style' */
+}
+
+form {
+    color: purple;
+}
+
+p {
+    color: purple;
+    font-size: 30px;
+    background-color: beige; 
+    padding: 10px; /* Adds some spacing */
+}
+
+h3 {
+    color: purple;
+    background-color: beige;
+    font-size: 30px;
+    padding: 10px; /* Adds some spacing */
+}
+
+h4 input[type=number] {
+    width: 500px;
+    font-size: 30px;
+    text-align: center;
+    background-color: purple;
+    color: white; /* Ensures text is readable */
+    border: none; /* Removes default border */
+    padding: 10px; /* Adds some spacing */
+}
+
+.blurred {
+    filter: blur(8px);
+    transition: filter 0.3s ease;
+}
+
+.unblurred {
+    filter: blur(0);
+}
+
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+}
